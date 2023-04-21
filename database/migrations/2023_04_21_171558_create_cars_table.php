@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string('brand', 30);
             $table->string('model', 40);
-            $table->date('productionData');
+            $table->date('productionDate');
             $table->text('description')->nullable();
             $table->timestamps();
         });
